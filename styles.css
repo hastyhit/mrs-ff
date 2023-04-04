@@ -1,5 +1,6 @@
 body {
     background-color: #F9F5EB;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 /* nav bar , heading, over all top part css */
@@ -22,10 +23,12 @@ body {
     font-size: 4rem;
     font-weight: bold;
     color: #2D2727;
+    font-family: 'Suez One', serif; 
 }
 
-.topchart li {
-    color: #2D2727;
+#header ul {
+    font-family: 'Roboto Condensed', sans-serif;
+
 }
 
 #home button {
@@ -76,16 +79,25 @@ body {
 /* products part */
 
 #products {
-    margin: 5% 6% 5% 6%;
+    margin: 0;
+    padding: 5% 6% 5% 6%;
+}
+
+#products h3 {
+    font-family: 'Suez One', serif;
+    margin-top: 0.8rem;
+    margin-bottom: 0;
 }
 
 .product-title, .product-title-p {
     text-align: center;
+    
 }
 
 .product-title {
     font-size: 3rem;
     font-weight: bold;
+    font-family: 'Suez One', serif;
 }
 
 .product-title-p {
@@ -174,16 +186,21 @@ body {
     padding: 5% 6%;
 }
 
+#location h2 {
+    font-family: 'Suez One', serif;
+    font-size: 2rem;
+}
+
 @media (max-width: 767px) {
     .map {
         width: 30%px;
         height: 30%px;
-        padding-left: 2%;
     }
 
     .location-row {
-        margin: 0;
+        padding: 5% 6%;
     }
+
 }
 
 
