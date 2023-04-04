@@ -97,13 +97,13 @@ body {
 
 .product-img {
     transition: all ease-in-out 0.4s;
-    box-shadow: 0 3px 4px 0px rgb(221, 216, 141);
+    box-shadow: 0 3px 4px 0px rgb(97, 97, 93);
     
 }
 
 .product-img:hover {
     transform: scale(1.04);
-    box-shadow: 0 5px 8px 0px rgba(31, 30, 25, 0.5);
+    box-shadow: 0 5px 8px 0px rgba(10, 10, 8, 0.5);
 }
 
 
@@ -172,6 +172,18 @@ body {
 /* location */
 .location-row {
     padding: 5% 6%;
+}
+
+@media (max-width: 767px) {
+    .map {
+        width: 30%px;
+        height: 30%px;
+        padding-left: 2%;
+    }
+
+    .location-row {
+        margin: 0;
+    }
 }
 
 
