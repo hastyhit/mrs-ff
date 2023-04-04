@@ -1,0 +1,2 @@
+const shopnow = document.querySelector('.shopnow');
+shopnow.onclick = () => alert("Please visit our Store or you can contact us thorugh facebook or call. Both of them are availabe on our contact section.  Thank You!")
